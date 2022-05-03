@@ -1,5 +1,5 @@
 # Joey Gauthier
 
-## Developeur Informatique
+Developpeur Informatique
 
 Mon portfolio
