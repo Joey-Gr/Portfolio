@@ -27,37 +27,219 @@
     <div id="nav-bar">
         <header>
             <a href="#home" class="logo">
-                <img class="logo" src="img/icon.svg" width="60" alt="logo">
+                <img class="logo" src="img/icon_html.png" width="60" alt="logo">
             </a>
             <nav>
-                <ul class="nav__links">
-                    <li><a href="#test">Home</a></li>
-                    <li><a href="#">Mes Projets</a></li>
-                    <li><a href="#">Epreuve E4</a></li>
-                    <li><a href="#">Epreuve E5</a></li>
-                    <li><a href="#">Veille</a></li>
+                <ul id="navs" class="nav__links">
+                    <li><a href="#home">Accueil</a></li>
+                    <li><a href="#e4">Epreuve E4</a></li>
+                    <li><a href="#e5">Epreuve E5</a></li>
+                    <li><a href="#veille">Veille</a></li>
                 </ul>
             </nav>
         </header>
     </div>
-    <div id="main">
+    <div id="home">
         <!--- Texte bidon ci-dessous --->
         <!--- Dès mon plus jeune âge j’ai commencé à me passionner 
         pour l’informatique. Je me suis dirigé en BAC Science Technologique du Développement Durable (STI2D) spécialité Système 
         d’Information Numérique (SIN) au Lycée Jules Haag à Besançon.  -->
         <h1>-A Propos de moi</h1><br>
-        <p>Je m’appelle Joey GAUTHIER, j’ai 19 ans. Je suis actuellement apprenti au Campus Montsouris à Paris en deuxième année de 
-        BTS Services informatiques aux Organisations (BTS SIO) dans la spécialité de Solutions Logicielles et Applications Métier (SLAM). 
-        En alternance dans l’entreprise de DOCAYO de Angers Saint-Laud.
-        Au cours de ces années en formation, je me suis passionné pour l’informatique mais plus particulièrement pour le développement, 
-        ce qui explique mon choix pour l’option SLAM.</p>
+        
+        <div id="presentation_content">
+            <img src="img/photo.jpg" width="360px" alt="Image de moi">
+            <br>
+            <h2> -Présentation </h2>
+            <p>
+                Je m’appelle Joey GAUTHIER, j’ai 19 ans. Je suis actuellement apprenti au Campus Montsouris à Paris en deuxième année de 
+                BTS Services informatiques aux Organisations (BTS SIO) dans la spécialité de Solutions Logicielles et Applications Métier (SLAM). 
+                En alternance dans l’entreprise de DOCAYO de Angers Saint-Laud.
+                Au cours de ces années en formation, je me suis passionné pour l’informatique mais plus particulièrement pour le développement, 
+                ce qui explique mon choix pour l’option SLAM.
+            </p>
+            <p>Retrouvez mon CV ici!</p>
 
+            <br>
+            <h2> -Projets Professionnel </h2>
+            <p>Lecteur .csv par une base de données alfresco (C#) 2021</p>
+            <p>Organization des projets avec les diagrammes UML et des projets de Sprints</p>
+            <p>Développement et testeur de l'application react-native EPIKIA 2022</p>
+            
+            <br>
+        </div>
+        <br><br>
+        <h2>Mes Compétences</h2>
+        <div id="compet">
+            <label for="C#">C# </label>
+            <meter id="competOb"
+                min="0" max="100"
+                low="33" high="66" optimum="80"
+                value="66">
+                at 66/100
+            </meter><br>
+
+            <label for="HTMLCSS">HTML5/CSS3 </label>
+            <meter id="competOb"
+                min="0" max="100"
+                low="33" high="66" optimum="80"
+                value="36">
+                at 36/100
+            </meter><br>
+
+            <label for="JS">JS </label>
+            <meter id="competOb"
+                min="0" max="100"
+                low="33" high="66" optimum="80"
+                value="84">
+                at 84/100
+            </meter><br>
+
+            <label for="PHP">PHP </label>
+            <meter id="competOb"
+                min="0" max="100"
+                low="33" high="66" optimum="80"
+                value="55">
+                at 55/100
+            </meter><br>
+
+            <label for="RN">React Native </label>
+            <meter id="competOb"
+                min="0" max="100"
+                low="33" high="66" optimum="80"
+                value="62">
+                at 62/100
+            </meter><br>
+
+            <label for="GIT">Git/Github </label>
+            <meter id="competOb"
+                min="0" max="100"
+                low="33" high="66" optimum="80"
+                value="58">
+                at 58/100
+            </meter><br>
+
+            <label for="UNITY">Unity </label>
+            <meter id="competOb"
+                min="0" max="100"
+                low="33" high="66" optimum="80"
+                value="64">
+                at 64/100
+            </meter><br>
+        </div>
         <br><br>
 
-        <h1> -Projets Professionnelles </h1>
-        <p>Développement des elements CORS (HTML / JS ) 2021</p>
-        <p>Organization des projets</p>
-        <p>Développement et testeur de l'application react-native EPIKIA 2022</p>
+        <h2> Qu'est ce que le BTS SIO ?</h2>
+        <p>
+            Le Brevet de Technicien Supérieur (BTS) sur les Services Informatiques aux Organisations (SIO), 
+            s'adresse à ceux qui souhaitent se former en deux ans aux métiers d'administrateur réseau ou de développeur. 
+            Pour par la suite intégré directement le marché du travail ou continuer des études, dans le domaine de l'informatique.
+        </p>
+        <h3> Le BTS SIO propose deux spécialités : </h3><br>
+        <div id="Option_Specialite">
+            <div id="Option_SISR">
+                <h4>Option SISR</h4>
+                <p>
+                    L’option Solution d’infrastructure, systèmes et réseaux forme des professionnels des réseaux et équipements informatiques 
+                    (installation, maintenance, sécurité). En sortant d’un BTS SIO SISR, 
+                    vous serez capables de gérer et d’administrer le réseau d’une société et d’assurer sa sécurité et sa maintenance.
+                </p>
+                <p>Les techniciens supérieurs en informatique option SISR, sont préparés aux métiers de :</p>
+                <ul>
+                    <li>Administrateur systèmes et réseaux</li>
+                    <li>Informaticien support et déploiement</li>
+                    <li>Pilote d’exploitation</li>
+                    <li>Support systèmes et réseaux</li>
+                    <li>Technicien d’infrastructure</li>
+                    <li>Technicien de production</li>
+                    <li>Technicien micro et réseaux</li>
+                </ul>
+            </div>
+            <br><br>
+            <div id="Option_SLAM">
+                <h4>Option SLAM</h4>
+                <p>
+                    L’option Solutions logicielles et applications métiers forme des spécialistes des logiciels 
+                    (rédaction d’un cahier des charges, formulation des besoins et spécifications, développement, intégration au sein de la société).
+                </p>
+                <p>Les techniciens supérieurs en informatique option SLAM, sont préparés aux métiers de :</p>
+                <ul>
+                    <li>Développeur d’applications informatiques</li>
+                    <li>Développeur informatique</li>
+                    <li>Analyste d’applications ou d’études</li>
+                    <li>Analyste programmeur</li>
+                    <li>Programmeur analyste</li>
+                    <li>Programmeur d’applications</li>
+                    <li>Responsable des services applicatifs</li>
+                    <li>Technicien d’études informatiques</li>
+                </ul>
+            </div>
+        </div>
+    </div><br><br><hr>
+    
+    <div id="Projets">
+        <div>
+            <h2>Mes Projets E5</h2>
+        </div>
+        <div class="row" id="e4">
+            <div class="column">
+              <img src="img/E4/migrationsAlfresco.gif" alt="Migration par données .csv WinForm (C#)" style="width:100%" onclick="imageSelectionE4(this);">
+            </div>
+            <div class="column">
+              <img src="img/E4/epikia.jpg" alt="Application Mobile EPIKIA (React Native)" style="width:100%" onclick="imageSelectionE4(this);">
+            </div>
+            <div class="column">
+              <img src="img/E4/rss-extraction.png" alt="RSS Extract WinForm (C#)" style="width:100%" onclick="imageSelectionE4(this);">
+            </div>
+            <div class="column">
+              <img src="img/E4/postman-exception-emoji.JPG" alt="Postman Test API EPIKIA " style="width:100%" onclick="imageSelectionE4(this);">
+            </div>
+        </div>
+        <div class="container">
+            <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+            <img id="expandedImgE4">
+            <div id="imgtextE4"></div>
+        </div>
+
+
+        <br><br>
+        <div>
+            <h2>Mes Projets E5</h2>
+        </div>
+        <div class="row" id="e5">
+            <div class="column">
+              <img src="img/E5/calculatrice.png" alt="Calculatrice WinForm (C#)" style="width:100%" onclick="imageSelectionE5(this);">
+            </div>
+            <div class="column">
+              <img src="img/E5/minesweeper.jpg" alt="Demineur Siteweb (JS)" style="width:100%" onclick="imageSelectionE5(this);">
+            </div>
+            <div class="column">
+              <img src="img/E5/morpion.png" alt="Morpion ConsoleGame (C#)" style="width:100%" onclick="imageSelectionE5(this);">
+            </div>
+            <div class="column">
+              <img src="img/E5/platboule.png" alt="Platformer 3D Application (Unity en C#)" style="width:100%" onclick="imageSelectionE5(this);">
+            </div>
+            <div class="column">
+              <img src="img/E5/isometric2D.png" alt="Isometric 2D (Unity en C#)" style="width:100%" onclick="imageSelectionE5(this);">
+            </div>
+        </div>
+        <div class="container">
+            <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+            <img id="expandedImgE5">
+            <div id="imgtextE5"></div>
+        </div>
+    </div><br><br><hr>
+
+    <div id="veille">
+        <h2>Veille Technologique</h2><br>
+        <h3>Definition de la veille technologique</h3>
+        <p>
+            La veille technologique, élément de la veille stratégique, consiste à surveiller les évolutions techniques, 
+            les innovations dans un secteur d’activité donnée. La veille technologique comprend notamment la surveillance, 
+            la collecte, le partage et la diffusion d’information permettant d’anticiper ou de s’informer sur des changements 
+            en matière de recherche, développement, brevet, lancement de nouveaux produits, matériaux, processus, concepts, 
+            innovation de fabrication, etc…. Cela a pour but d’évaluer l’impact sur l’environnement et l’organisation.
+        </p>
+
     </div>
 </body>
 <script src="js/navbar.js"></script>
